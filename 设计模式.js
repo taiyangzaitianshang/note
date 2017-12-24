@@ -1,6 +1,6 @@
 //单例模式
 //核心是确保只有一个实例，并提供全局访问,下面将创建和唯一对象两件事分开-----单一职责模式
-var CreateDiv = function( html ){ 
+var CreateDiv = function( html ){
 	this.html = html;
 	this.init();
 };
